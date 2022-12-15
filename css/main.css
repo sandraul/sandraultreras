@@ -1,7 +1,13 @@
-/***** BASE STYLES *****/
+/***** GLOBAL STYLES *****/
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #2b2b2b;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
 }
 
 /***** HEADER *****/
@@ -13,6 +19,8 @@ header {
 }
 
 header h1 { 
+    float: left;
+    width: 300px;
     padding: 65px 0 65px 25px;
     font-family: 'lora', serif;
     color: #bbc085;
@@ -21,6 +29,8 @@ header h1 {
 
 nav {
     float: right; 
+    width: 800px;
+    text-align: right;
     padding: 75px 25px;
 }
 nav ul li{
@@ -82,7 +92,8 @@ header h3 {
 #about h2 {
     font-family: 'Lora', serif; 
     font-size: 36px;
-    padding-left: 15px;
+    padding-left: 60px;
+    color: #828282;
 }
  
 #about p {
@@ -94,39 +105,49 @@ header h3 {
     text-align: justify;
 }
 
-/***** WORK *****/
+/***** SKILLS *****/
 
-#work {
-    background-color: #f9ceb7;
+#skills {
+    background-color: #f5f5f5;
     text-align: center;
 }
 
-#work .full-width {
+#skills .full-width {
     padding: 115px 0;
 }
  
-#work img {
+#skills img {
     padding-bottom: 30px;
 }
 
-#work h3 {
+#skills h2 {
+    font-family: 'Lora', serif; 
+    font-size: 36px;
+    color: #828282;
+    padding-bottom: 30px;
+}
+
+#skills h3 {
     font-size: 24px;
-    line-height: 32px;
+    line-height: 36px;
     width: 400px;
     margin: 0 auto;
+    color: #828282;
 }
  
-#work p {
+#skills p {
     font-family: 'Lora', serif; 
     font-size: 18px;
     line-height: 30px;
     padding: 0 50px;
+    color: #7f7f7f;
+    text-align: justify;
 }
 
 /***** CONTACT *****/
 
 #contact{
-    background-color: #ebebeb;
+    background-color: #f9e9e9;
 }
 
 #contact .full-width {
@@ -150,31 +171,35 @@ header h3 {
     font-family: 'lora', serif;
     font-size: 36px;
     line-height: 44px;
+    color: #828282;
 }
 
 #contact #email {
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 26px;
+    line-height: 30px;
     font-weight: 400;
-    margin: -30px 0 5px 0;
+    margin: -15px 0 5px 0;
+    color: #828282;
 }
 
 #contact #socialmedia {
-    font-size: 29px;
-    line-height: 44px;
-    font-weight: bold;
-    margin: 40px 0 0 0;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 30px 0 0 0;
+    color: #828282;
 }
 
 #contact a {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold; 
-    color: #c49075;
+    color: #828282;
     text-decoration: none;
 }
 
 #contact ul {
     list-style: none;
+    margin-left: 40px;
 }
 #contact ul li {
      display: inline-block;
