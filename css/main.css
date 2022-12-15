@@ -6,8 +6,6 @@ body {
 
 .full-width {
     width: 1200px;
-    margin: 0 auto;
-    overflow: auto;
 }
 
 /***** HEADER *****/
@@ -21,7 +19,7 @@ header {
 header h1 { 
     float: left;
     width: 300px;
-    padding: 65px 0 65px 25px;
+    padding: 45px 0 65px 25px;
     font-family: 'lora', serif;
     color: #bbc085;
     font-size: 30px;
@@ -29,9 +27,9 @@ header h1 {
 
 nav {
     float: right; 
-    width: 800px;
+    width: 900px;
     text-align: right;
-    padding: 75px 25px;
+    padding: 55px 5px;
 }
 nav ul li{
     display: inline-block;
@@ -41,7 +39,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 22px;
     color: #828282;
-    padding-left: 80px; 
+    padding-left: 50px; 
 }
 
 header h2 {
@@ -67,6 +65,10 @@ header h3 {
     clear: both;
 }
 
+header #title {
+    text-align: center;
+    line-height: 150px;
+}
 
 /***** GRID *****/
 .full-width {
@@ -143,6 +145,57 @@ header h3 {
     color: #7f7f7f;
     text-align: justify;
 }
+
+/***** PROJECTS *****/
+
+
+#projects {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#projects .full-width {
+    padding: 100px 0;
+    display: flex;
+}
+
+#projects .projects-piece {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+
+}
+ 
+#projects img {
+    padding-bottom: 30px;
+    width: 300px;
+}
+
+#projects h2 {
+    font-family: 'Lora', serif; 
+    font-size: 36px;
+    color: #828282;
+    padding: 90px 0 30px 0;
+    margin-top: 0px;
+}
+
+#projects h3 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 400px;
+    margin: 0 auto;
+    color: #828282;
+}
+ 
+#projects p {
+    font-family: 'Lora', serif; 
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+    color: #7f7f7f;
+    text-align: justify;
+}
+
 
 /***** CONTACT *****/
 
